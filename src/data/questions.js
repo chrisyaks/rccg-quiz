@@ -4,108 +4,311 @@
  *  - q       : question string
  *  - options : array of 4 answer strings
  *  - answer  : index (0-based) of the correct option
+ *
+ * Pre-shuffled: both question order and option order randomized.
+ * Source: RCCG Sunday School — Advanced Concept Questions
  */
 const QUESTIONS = [
   {
-    q: "In Lesson 1, the title 'Son of Man' was also used by God when He spoke to prophets in the Old Testament. Which prophet is specifically cited? ",
-    options: ["Isaiah ", "Jeremiah", "Ezekiel ", "Daniel"],
+    q: "Absolute surrender to God, as the lesson defines it, means:",
+    options: [
+      "Letting go of our own will and embracing His will",
+      "Surrendering all material possessions to the church",
+      "Letting go of our own ways and embracing His ways",
+      "Withdrawing from worldly society entirely",
+    ],
     answer: 2,
   },
   {
-    q: "In the genealogy of Jesus, His connection to the first human being created is established in which scripture? ",
-    options: ["Genesis 3:15 ", "Luke 3:38 ", "Romans 8:29 ", "John 1:12"],
-    answer: 1,
-  },
-  {
-    q: "Which of these describes the hypostatic union?",
-    options: ["Jesus Christ as part man and part God", "The divine power of God", "Jesus Christ being fully man and fully God", "The union of God the father, God the son and God the Holy Spirit"],
-    answer: 2,
-  },
-  {
-    q: " A prophetic declaration was made by an audible voice during Jesus baptism. What did the voice say?",
-    options: ["This is My beloved Son, hear Him", "This is My beloved Son, in whom I am well pleased", "This is My Son, the Firstborn among many", "Behold My Servant whom I have chosen"],
-    answer: 1,
-  },
-  {
-    q: "The word 'Mighty' in 'Mighty God' (Isaiah 9:6) is a translation of which Hebrew word?",
-    options: ["El Shaddai", "El Elyon", "El Gibbor", "El Olam"],
-    answer: 2,
-  },
-  {
-    q: "Which of the following parables did Jesus use to teach ‘Occupy TillI come’?",
-    options: ["Parable of the 10 virgins", "Parable of the minas", "Parable of the talents", "Parable of the unjust steward"],
-    answer: 1,
-  },
-  {
-    q: "The memory verse for Lesson 6 (Jesus Christ Head of the Church) is Colossians 1:18. What title does this verse give to Christ in relation to the dead?",
-    options: ["The Author of eternal salvation", "The Firstborn from the dead", "The Beginning of all creation", "The Pre-eminent Lord of all"],
-    answer: 1,
-  },
-  {
-    q: "Christ sanctifies His Body by washing it from sins through which means?",
-    options: ["The washing of water by the Word (Ephesians 5:26)", "The renewing of the mind (Romans 12:2)", "The blood of the cross (Colossians 1:20)", "The fire of the Holy Spirit (Acts 2:3)"],
+    q: "In the 'Anatomy of Temptation' (1 John 2:16), the three entry points of sin are:",
+    options: [
+      "The lust of the flesh, the lust of the eyes, and the pride of life",
+      "The desire of the flesh, the desire of the world, and the pride of self",
+      "The lust of the flesh, the lust of the heart, and the pride of life",
+      "The flesh, the world, and the devil",
+    ],
     answer: 0,
   },
   {
-    q: "The memory verse for Lesson 7 (Jesus Christ the Creator) is Colossians 1:16. What does this verse say about ALL things?",
-    options: ["All things are upheld by His word of power", " All things were created through Him and for Him", "c) All things consist in Him and by Him", "d) All things are reconciled through His blood"],
-    answer: 1,
-  },
-  {
-    q: "In Lesson 7, the light that God called forth in Genesis 1:3 is identified as:",
-    options: ["The light of the sun and moon", "Jesus Christ (John 8:12)", "The glory of God (Revelation 21:23)", "The fire of God's presence"],
-    answer: 1,
-  },
-  {
-    q: "According to Lesson 8, at Christ's coming all things would be presented to God as a church without spot or wrinkle. His coming is described as:",
-    options: ["Announced with great celebration", "Suddenly unannounced", "After the Great Tribulation only", "At the sound of the seventh trumpet"],
-    answer: 1,
-  },
-  {
-    q: "In Lesson 9 (The Omnificent God), the word 'omnificence' is defined as:",
-    options: ["All-powerful unlimited authority", "The ability to create all things or to have unlimited power to create", "Having wisdom beyond human comprehension", "Being present in all places simultaneously"],
-    answer: 1,
-  },
-  {
-    q: "Lesson 9 states that God's omniscience goes together with His omnificence because of which combined attributes?",
-    options: ["Omnipotence, omnipresence, omniscience", "Omnipotence (omnipotence) and wisdom (omniscience)", "Omnipotence, wisdom, and omniscience (all-knowing)", "Authority, creativity, and all-knowingness"],
+    q: "The memory verse says bodily exercise 'profiteth little.' The lesson explains this to mean:",
+    options: [
+      "Exercise is essentially useless and should not be prioritised",
+      "Exercise profits the body but harms the spirit",
+      "Exercise has value for a season, but it must not be made one's god",
+      "Exercise matters only for the young and physically active",
+    ],
     answer: 2,
   },
   {
-    q: "In Lesson 9 (Outline 2), man is described as made in God's image and likeness in Genesis 1:26. What creative attribute did God share with man, as illustrated in Genesis 1:16?",
-    options: ["The ability to rule over all creatures", "The ability to design things with intent and function", "The ability to commune with God face to face", "The ability to name and classify all creatures"],
-    answer: 1,
-  },
-  {
-    q: "Lesson 10 teaches about the Person of the Holy Spirit. The memory verse is Exodus 31:1–5. In this passage, which man was Spirit-filled for creative artistic work?",
-    options: ["Moses", "Aaron", "Bezaleel", "Joshua"],
+    q: "A 'spiritual altar' in the believer's life is best understood as:",
+    options: [
+      "A weekly act of devotion performed during church services",
+      "A symbol of past commitments that no longer requires attention",
+      "The inner place of consecration where one maintains a living relationship with God",
+      "A physical place of worship where offerings are presented to God",
+    ],
     answer: 2,
   },
   {
-    q: "In Lesson 10, which Old Testament judge was empowered by the Spirit of God to defeat the Midianites with only 300 men?",
-    options: ["Samson", "Othniel", "Jephthah", "Gideon"],
+    q: "The 'gate of the eye' is also referred to in the lesson as:",
+    options: [
+      "The windows of the soul",
+      "The lamp of the body",
+      "The mirror of the soul",
+      "The doorway of the heart",
+    ],
+    answer: 0,
+  },
+  {
+    q: "Why does the lesson argue that being physically unhealthy can make holiness harder?",
+    options: [
+      "Sleep-deprivation and poor nutrition impair the prefrontal cortex, the seat of moral self-control",
+      "Illness is a direct divine punishment that distances one from God",
+      "Poor health prevents regular church attendance",
+      "Unhealthy people are usually too weak to pray effectively",
+    ],
+    answer: 0,
+  },
+  {
+    q: "According to Hebrews 5:11, the root reason some people are spiritually dull of hearing is that:",
+    options: [
+      "They were misled by false teachers in their early walk",
+      "Their ears are not trained to recognise the voice of God",
+      "Their heart is not cultivated to understand the things of Christ",
+      "They have not yet received the indwelling Holy Spirit",
+    ],
+    answer: 2,
+  },
+  {
+    q: "Spiritually defective eyes are best characterised as eyes that:",
+    options: [
+      "Are simply distracted by the busyness of everyday life",
+      "Are physically damaged and require spiritual healing",
+      "Are full of lust and, lacking the fear of God, are drawn toward iniquity",
+      "Belong only to unbelievers and never to Christians",
+    ],
+    answer: 2,
+  },
+  {
+    q: "The difference between a thankful believer and a complaining one is best described as:",
+    options: [
+      "A thankful believer fixes their focus on God's goodness while a complainer fixes theirs on problems",
+      "A thankful believer experiences fewer hardships than a complainer",
+      "A thankful believer suppresses negative feelings while a complainer expresses them",
+      "A thankful believer ignores difficulties while a complainer dwells on them",
+    ],
+    answer: 0,
+  },
+  {
+    q: "The inner-ear part that works with the semicircular canals to keep the body balanced is:",
+    options: [
+      "The cochlea",
+      "The eardrum",
+      "The vestibule",
+      "The auditory nerve",
+    ],
+    answer: 2,
+  },
+  {
+    q: "Acknowledging God as the source of every achievement means recognising that:",
+    options: [
+      "Human effort plays no part in a person's accomplishments",
+      "All credit for a person's accomplishments ultimately belongs to God",
+      "God rewards achievement only when thanks is given first",
+      "All praise for a person's accomplishments ultimately belongs to God",
+    ],
+    answer: 1,
+  },
+  {
+    q: "The two main functions of the ear, according to the lesson, are:",
+    options: [
+      "Balance and discernment",
+      "Hearing and transmission",
+      "Hearing and balance",
+      "Hearing and sensitivity",
+    ],
+    answer: 2,
+  },
+  {
+    q: "The slave girl of Acts 16 teaches believers that:",
+    options: [
+      "Only false information can come from an evil spirit",
+      "A message can be factually true yet still proceed from the wrong spirit",
+      "Every accurate spiritual statement must originate from God",
+      "The source of a message is irrelevant if the words are correct",
+    ],
+    answer: 1,
+  },
+  {
+    q: "The lesson's conclusion teaches that receiving spiritual information is:",
+    options: [
+      "Dependent largely on the teaching of one's pastor",
+      "Voluntary and within our power to choose",
+      "Involuntary but within our power to resist",
+      "Automatic for every genuine believer",
+    ],
+    answer: 1,
+  },
+  {
+    q: "The key difference between tongues and prophecy, according to the Text Review, is that:",
+    options: [
+      "Both tongues and prophecy speak only to God",
+      "Tongues are self-edifying (inward), while prophecy edifies others (outward)",
+      "Both tongues and prophecy speak only to men",
+      "Tongues edify others (outward), while prophecy is self-edifying (inward)",
+    ],
+    answer: 1,
+  },
+  {
+    q: "In Jesus' wilderness temptation, the offer of 'the kingdoms of the world' corresponds to:",
+    options: [
+      "The lust of the eyes",
+      "The lust of the flesh",
+      "The pride of life",
+      "The desire for security",
+    ],
+    answer: 0,
+  },
+  {
+    q: "According to Revelation 3:16, the half-hearted approach to faith is identified as:",
+    options: [
+      "Half-heartedness",
+      "Spiritual pride",
+      "Lukewarmness",
+      "Quiet unbelief",
+    ],
+    answer: 2,
+  },
+  {
+    q: "The instruction 'Test all things; hold fast what is good' teaches believers to:",
+    options: [
+      "Believe only the prophecies that bring them personal benefit",
+      "Accept every prophecy, since God speaks through spiritual gifts",
+      "Examine every spiritual message carefully before accepting or rejecting it",
+      "Reject prophecy generally, because false prophets are many",
+    ],
+    answer: 2,
+  },
+  {
+    q: "Agabus's prophecy of famine (Acts 11) illustrates that genuine prophecy:",
+    options: [
+      "Should always be accompanied by a demand for obedience",
+      "Is primarily meant to predict disaster so the church can flee",
+      "Often carries a call to practical action and is validated by its fulfilment",
+      "Is confirmed only when interpreted by an apostle",
+    ],
+    answer: 2,
+  },
+  {
+    q: "The lesson teaches that thanksgiving should become a habit because:",
+    options: [
+      "A repeated habit of thanksgiving secures an easier and smoother life",
+      "A consistent grateful attitude keeps believers focused on God rather than circumstances",
+      "Thanksgiving is mainly an activity for the start of a new year",
+      "Thanksgiving offered often enough prevents misfortune from occurring",
+    ],
+    answer: 1,
+  },
+  {
+    q: "When something evil happens, the believer should understand that:",
+    options: [
+      "God is not its author, yet He can work it together for the good of His children",
+      "God authors all events, both good and evil, for His purposes",
+      "God is unaware of it until the believer brings it to Him in prayer",
+      "God permits it as a direct punishment to correct His children",
+    ],
+    answer: 0,
+  },
+  {
+    q: "'Sanctified eyes,' according to the lesson, are best understood as:",
+    options: [
+      "A natural trait that some believers are simply born with",
+      "Eyes that have been physically protected from all worldly images",
+      "The by-product of a regenerated life in Christ, consciously guarded against pollution",
+      "A special grace given only to mature believers after years of service",
+    ],
+    answer: 2,
+  },
+  {
+    q: "Giving thanks 'in everything' is described in Scripture as:",
+    options: [
+      "The will of God in Christ Jesus concerning every believer",
+      "A spiritual discipline that matures believers over time",
+      "A duty required mainly during seasons of blessing",
+      "A response that guarantees a trouble-free life",
+    ],
+    answer: 0,
+  },
+  {
+    q: "Rebuilding the altar in 'these Last Days' is necessary because:",
+    options: [
+      "The love between believers grows cold in many hearts",
+      "False prophets will deceive the undiscerning",
+      "Persecution against the church will intensify",
+      "The love of God grows cold in many hearts",
+    ],
     answer: 3,
   },
   {
-    q: "Which of these topics was not covered in the first quarter of the Sunday school manual",
-    options: [" Jesus Christ the son of God", "Jesus Christ the Beginning and the End", "Jesus Christ the Redeemer", "Jesus Christ The Coming King"],
+    q: "The 'gate of the ear' is best described as:",
+    options: [
+      "A sensor that selects what information we allow into the soul or discard",
+      "A sensor that stores all information the body receives from the world",
+      "A defence mechanism that blocks every form of harmful sound",
+      "A faculty concerned only with physical hearing",
+    ],
+    answer: 0,
+  },
+  {
+    q: "When believers neglect their health while focusing on career, family and ministry, the lesson warns that:",
+    options: [
+      "They merely become less productive in ministry",
+      "They put their health at risk, leading to problems ranging from minor to chronic",
+      "They lose fellowship with God until their health is restored",
+      "They experience spiritual stagnation as the primary consequence",
+    ],
     answer: 1,
   },
   {
-    q: "According to Lesson 11 (Occupy Till I Come), the phrase 'Occupy till I come' means which of the following?",
-    options: ["Monetary wealth given to servants", "The talent or spiritual gift given to every child of God", "Physical resources for kingdom business", "The resource and investment of God that is sufficient to fulfil life's purpose"],
-    answer: 3,
-  },
-  {
-    q: "Lesson 11(Occupy Till I Come) states that the 'pound' was given equally to every servant. What does this signify for every child of God?",
-    options: ["All believers receive the same financial blessing", "God gives the same level of anointing to every believer", "The pound (resource of God) is given to every child of God", "Every believer has equal opportunity to earn salvation"],
+    q: "Neglecting God's altar inevitably leads a person to:",
+    options: [
+      "Lose their salvation immediately and permanently",
+      "Experience material loss as a sign of God's displeasure",
+      "Build other altars, devoting their time, talents and resources to them",
+      "Remain spiritually neutral until they choose to repent",
+    ],
     answer: 2,
   },
   {
-    q: "The conclusion of Lesson 5 states that 'my redemption cost Jesus everything.'This demands which response from believers?",
-    options: ["Living a life of dedicated service and offering", "Also giving Jesus everything in return", "Supporting the work of the Church financially", "Living righteously and avoiding all sin"],
+    q: "Daniel's refusal of the king's rich food is best interpreted as:",
+    options: [
+      "A protest against the customs of Babylon",
+      "A personal preference for plain food over royal delicacies",
+      "A disciplined conviction that what you consume controls your output",
+      "A temporary fast undertaken for a specific prayer request",
+    ],
+    answer: 2,
+  },
+  {
+    q: "The single most important test of any prophecy is whether it:",
+    options: [
+      "Predicts future events that come to pass accurately",
+      "Agrees with the written Word of God",
+      "Comes from a person of strong spiritual reputation",
+      "Stirs a powerful emotional response in the hearers",
+    ],
     answer: 1,
   },
-  ];
+  {
+    q: "The healthy-living tips in the lesson are summarised by the principle that believers should:",
+    options: [
+      "First involve God in their pursuit of health, then act practically and wisely",
+      "Follow medical advice while keeping faith separate from health",
+      "Rely primarily on willpower and discipline to maintain good health",
+      "Depend on prayer alone, trusting God to keep them well",
+    ],
+    answer: 0,
+  },
+];
 
 export default QUESTIONS;
