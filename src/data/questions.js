@@ -120,15 +120,15 @@ const QUESTIONS = [
     answer: 1,
   },
   {
-    q: "The two main functions of the ear, according to the lesson, are:",
+    q: "The 'gate of the ear' is best described as:",
     options: [
-      "Balance and discernment",
-      "Hearing and transmission",
-      "Hearing and balance",
-      "Hearing and sensitivity",
+      "A sensor that selects what information we allow into the soul or discard",
+      "A sensor that stores all information the body receives from the world",
+      "A defence mechanism that blocks every form of harmful sound",
+      "A faculty concerned only with physical hearing",
     ],
-    answer: 2,
-  },
+    answer: 0,
+  },,
   {
     q: "The slave girl of Acts 16 teaches believers that:",
     options: [
@@ -160,14 +160,14 @@ const QUESTIONS = [
     answer: 1,
   },
   {
-    q: "In Jesus' wilderness temptation, the offer of 'the kingdoms of the world' corresponds to:",
+    q: " The main reason believers should practise good etiquette is because:",
     options: [
-      "The lust of the eyes",
-      "The lust of the flesh",
-      "The pride of life",
-      "The desire for security",
+   "It helps them gain acceptance and admiration from society",
+   "It reflects their Christian character and honours God through their behaviour",
+   "It allows them to avoid conflicts with people around them",
+   "It makes them appear more educated and successful"
     ],
-    answer: 0,
+    answer: 1,
   },
   {
     q: "According to Revelation 3:16, the half-hearted approach to faith is identified as:",
@@ -208,106 +208,6 @@ const QUESTIONS = [
       "Thanksgiving offered often enough prevents misfortune from occurring",
     ],
     answer: 1,
-  },
-  {
-    q: "When something evil happens, the believer should understand that:",
-    options: [
-      "God is not its author, yet He can work it together for the good of His children",
-      "God authors all events, both good and evil, for His purposes",
-      "God is unaware of it until the believer brings it to Him in prayer",
-      "God permits it as a direct punishment to correct His children",
-    ],
-    answer: 0,
-  },
-  {
-    q: "'Sanctified eyes,' according to the lesson, are best understood as:",
-    options: [
-      "A natural trait that some believers are simply born with",
-      "Eyes that have been physically protected from all worldly images",
-      "The by-product of a regenerated life in Christ, consciously guarded against pollution",
-      "A special grace given only to mature believers after years of service",
-    ],
-    answer: 2,
-  },
-  {
-    q: "Giving thanks 'in everything' is described in Scripture as:",
-    options: [
-      "The will of God in Christ Jesus concerning every believer",
-      "A spiritual discipline that matures believers over time",
-      "A duty required mainly during seasons of blessing",
-      "A response that guarantees a trouble-free life",
-    ],
-    answer: 0,
-  },
-  {
-    q: "Rebuilding the altar in 'these Last Days' is necessary because:",
-    options: [
-      "The love between believers grows cold in many hearts",
-      "False prophets will deceive the undiscerning",
-      "Persecution against the church will intensify",
-      "The love of God grows cold in many hearts",
-    ],
-    answer: 3,
-  },
-  {
-    q: "The 'gate of the ear' is best described as:",
-    options: [
-      "A sensor that selects what information we allow into the soul or discard",
-      "A sensor that stores all information the body receives from the world",
-      "A defence mechanism that blocks every form of harmful sound",
-      "A faculty concerned only with physical hearing",
-    ],
-    answer: 0,
-  },
-  {
-    q: "When believers neglect their health while focusing on career, family and ministry, the lesson warns that:",
-    options: [
-      "They merely become less productive in ministry",
-      "They put their health at risk, leading to problems ranging from minor to chronic",
-      "They lose fellowship with God until their health is restored",
-      "They experience spiritual stagnation as the primary consequence",
-    ],
-    answer: 1,
-  },
-  {
-    q: "Neglecting God's altar inevitably leads a person to:",
-    options: [
-      "Lose their salvation immediately and permanently",
-      "Experience material loss as a sign of God's displeasure",
-      "Build other altars, devoting their time, talents and resources to them",
-      "Remain spiritually neutral until they choose to repent",
-    ],
-    answer: 2,
-  },
-  {
-    q: "Daniel's refusal of the king's rich food is best interpreted as:",
-    options: [
-      "A protest against the customs of Babylon",
-      "A personal preference for plain food over royal delicacies",
-      "A disciplined conviction that what you consume controls your output",
-      "A temporary fast undertaken for a specific prayer request",
-    ],
-    answer: 2,
-  },
-  {
-    q: "The single most important test of any prophecy is whether it:",
-    options: [
-      "Predicts future events that come to pass accurately",
-      "Agrees with the written Word of God",
-      "Comes from a person of strong spiritual reputation",
-      "Stirs a powerful emotional response in the hearers",
-    ],
-    answer: 1,
-  },
-  {
-    q: "The healthy-living tips in the lesson are summarised by the principle that believers should:",
-    options: [
-      "First involve God in their pursuit of health, then act practically and wisely",
-      "Follow medical advice while keeping faith separate from health",
-      "Rely primarily on willpower and discipline to maintain good health",
-      "Depend on prayer alone, trusting God to keep them well",
-    ],
-    answer: 0,
   },
 ];
 
